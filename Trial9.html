@@ -1,0 +1,52 @@
+<html>
+<head>
+    <h1>A Fancier Form</h1>
+<style>
+body {font-family: "Arial", sans-serif; font-weight:bold;}
+/*div {width: 350px; background-color: white}*/
+div.name{
+    text-align: left;
+    width: 600px;
+    height: 25px;
+}
+label.text{
+    display: inline-block;
+    width: 150px;
+}
+
+</style>
+</head>
+<body>
+    <div class ="name">
+        <label class = "text" for ="my-input-tag">Name</label>
+        <input type = "text" name = "my-input-tag"></input>
+    </div>
+    <div class ="name">
+        <label class="text" for ="my-input-tag">Age</label>
+        <input type = "text" name = "my-input-tag"></input>
+   </div>
+   <div class ="name">
+        <label class="text">Favorite Color</label>
+        <select>
+            <option>red</option>
+            <option>green</option>
+            <option>blue</option>
+            <option>fushcia</option>
+            <option>magenta</option>
+        </select>
+    </div>
+
+    <form>
+        <div class ="name">
+            <label class="text">Love Music</label><input type ="radio" name="Love Music" value ="Love Music">
+        </div>
+        <div class = "name">
+            <label class="text">Hate Music</label><input type ="radio" name="Hate Music" value ="Hate Music">
+        </div>
+        <div class = "name">
+            <label class="text">Is it raining?</label><input type="checkbox" name="rain" value="yes">
+        </div>
+    </form>
+    <input type="submit" value="Submit"></br>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<html>
+<head>
+<style>
+.boxA{
+    width:300px;
+    height:175px;
+    background-color:pink;
+    position: absolute;
+    margin-left: 320px;
+    padding-left: 5px
+   }
+
+.boxB{display: inline-block;
+    width:300px;
+    height:200px;
+    background-color:#cccccc;
+    padding-left: 5px
+}
+
+div.name{
+    text-align: left;
+    width: 600px;
+    height: 25px;
+}
+label.text{
+    display: inline-block;
+    width: 100px;
+}
+
+</style>
+</head>
+<body>
+    <h1>Columns!</h1>
+    <div class = "boxA">
+        <div class ="name">
+        <label class = "text" for ="my-input-tag">Name</label>
+        <input type = "text" name = "my-input-tag"></input>
+    </div>
+        <div class ="name">
+            <label class="text" for ="my-input-tag">Age</label>
+            <input type = "text" name = "my-input-tag"></input>
+       </div>
+   <div class ="name">
+        <label class="text">Favorite Color</label>
+        <select>
+            <option>red</option>
+            <option>green</option>
+            <option>blue</option>
+            <option>fushcia</option>
+            <option>magenta</option>
+        </select>
+    </div>
+
+    <form>
+        <div class ="name">
+            <label class="text">Love Music</label><input type ="radio" name="Love Music" value ="Love Music">
+        </div>
+        <div class = "name">
+            <label class="text">Hate Music</label><input type ="radio" name="Hate Music" value ="Hate Music">
+        </div>
+        <div class = "name">
+            <label class="text">Is it raining?</label><input type="checkbox" name="rain" value="yes">
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+
+    <div class = "boxB">
+        <h2>Here is a list of things</h2>
+        <ul>
+            <li>Banana</li>
+            <li>Rabbit holes</li>
+            <li>John Quincy Adams</li>
+            <li>A sea serpent</li>
+        </ul>
+    </div>
+    
+
+</body>
+</html>
